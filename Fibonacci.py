@@ -12,3 +12,9 @@ def fibo(n):
 
 n = int(input("Enter the number"))
 fibo(n)
+total = 0
+for i in range(fibonacci.__len__()):
+    if( fibonacci[i] %2 == 0):
+        # print(fibonacci[i])
+        total += fibonacci[i]
+print(total)
